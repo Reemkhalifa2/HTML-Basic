@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register - UTAS Oman</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        University of Technology and Applied Sciences<img
+          src="image\logo.png"
+          alt="College Logo"
+          width="40"
+        />
+      </h1>
+
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="programs.html">Programs</a> |
+        <a href="contact.html">Contact</a>|
+        <a href="schedule.html">Schedule</a>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label>Full Name:</label><br />
+          <input type="text" name="fullname" /><br />
+
+          <label>Student ID:</label><br />
+          <input type="text" name="studentid" /><br />
+
+          <label>Date of Birth:</label><br />
+          <input type="date" name="DOB" /><br />
+
+          <label>Gender:</label><br />
+          <input type="radio" name="gender" value="male" /> Male
+          <input type="radio" name="gender" value="female" /> Female<br />
+
+          <label>Email Address:</label><br />
+          <input type="email" name="email" /><br />
+
+          <label>Phone Number:</label><br />
+          <input type="tel" name="phone" /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Academic & Address Details</legend>
+
+          <label>Program Selection:</label><br />
+          <select name="program">
+            <option>Software Engineering</option>
+            <option>Data Science</option>
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Cyber Security</option></select
+          ><br /><br />
+
+          <label>Address:</label><br />
+          <textarea name="address"></textarea><br /><br />
+
+          <input type="checkbox" name="terms" />
+          I agree to the Terms and Conditions<br /><br />
+
+          <input type="submit" value="Register" />
+        </fieldset>
+      </form>
+    </main>
+    <aside>
+        <h2>Rush to register - Closing Sunday!!</h2>
+        <p>Don't miss the opportunity to secure your spot in our programs. Register now before the deadline!</p>
+    </aside>
+
+    <footer>
+      <p>© 2026 UTAS Oman</p>
+    </footer>
+  </body>
+</html>
